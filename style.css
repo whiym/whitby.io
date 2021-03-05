@@ -1,0 +1,49 @@
+body {
+    font-family:"microknight", "Lucida Console", monospace, Monaco;
+    font-size: 12pt;
+    line-height: 16px;
+    font-weight:normal;
+    color:#747474;
+    background-color:#000000;
+    margin: 10px;
+    padding: 0;
+    align-self: center
+}
+
+pre {
+    font-family:"microknight", "Lucida Console", monospace, Monaco;
+    font-size:12pt;
+    font-weight:normal;
+    color:#747474;
+    background-color:#000000;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center  
+}
+
+@font-face {
+    font-family: "microknight";
+    src: url("MicroKnight_v1.0.ttf");
+}
+
+.column {
+    float: left;
+}
+
+.left, .right {
+    width: 5%;
+}
+
+.middle {
+    width: 90%;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
